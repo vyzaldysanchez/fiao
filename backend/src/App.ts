@@ -2,6 +2,7 @@ import * as path from 'path';
 import * as express from 'express';
 import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
+import * as lusca from 'lusca';
 
 import HeroRouter from './routes/HeroRouter';
 
@@ -23,6 +24,8 @@ class App {
     this.express.use(logger('dev'));
     this.express.use(bodyParser.json());
     this.express.use(bodyParser.urlencoded({ extended: false }));
+    this.express.use(lusca.xframe("SAMEORIGIN"));
+    this.express.use(lusca.xssProtection(true));
   }
 
   // Configure API endpoints.
