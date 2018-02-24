@@ -7,7 +7,6 @@
 #### Funcionalidades.
 
 - Toma de foto cuando se registre una venta. 
-- CRUD de productos. 
 - Administrar inventario (Stock Control). 
 - Cada empleado a través de un código único para poder realizar sus compras. 
 - El empleado a través de elegir su nombre en un listado.
