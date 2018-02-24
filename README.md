@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/davidtavarez/fiao.svg?branch=master)](https://travis-ci.org/davidtavarez/fiao)
+
 # fiao
 
 ### Digitalización de la dinámica de venta de mini “cafetería” Ana.
@@ -30,5 +32,3 @@
 Proyecto Móvil: /mobile
 Backend: /backend
 Web: /web
-
-[![Build Status](https://travis-ci.org/davidtavarez/fiao.svg?branch=master)](https://travis-ci.org/davidtavarez/fiao)
