@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/davidtavarez/fiao.svg?branch=master)](https://travis-ci.org/davidtavarez/fiao)
+[![Build Status](https://travis-ci.org/davidtavarez/fiao.svg?branch=master)](https://travis-ci.org/davidtavarez/fiao) ![License](https://img.shields.io/github/license/davidtavarez/fiao.svg)
 
 # fiao
 
