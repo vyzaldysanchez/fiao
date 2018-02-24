@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js && cp src/data.json dist/data.json",
+    "start": "node dist/index.js && cp src/data.json dist/",
     "test": "mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.test.ts'",
     "build": "gulp scripts"
   },
@@ -32,6 +32,9 @@
     "body-parser": "^1.18.2",
     "debug": "^2.6.9",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.33.4",
+    "sequelize-typescript": "^0.6.2"
   }
 }
